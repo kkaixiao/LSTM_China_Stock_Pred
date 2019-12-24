@@ -1,5 +1,11 @@
 # -*- coding: utf-8 -*-
+"""
 
+This file read all data points and combine the data into minutes,
+and store the data into pandas object for LSTM - RNN to model and make a prediction
+
+@author: Kai
+"""
 from datetime import datetime, timedelta
 
 

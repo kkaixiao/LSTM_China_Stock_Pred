@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 """
 Created on Wed Apr 10 22:28:35 2019
-
+This file read and parse the CSV stock high frequency data, then store all data points into InfluxDB
 
 @author: Kai
 """
