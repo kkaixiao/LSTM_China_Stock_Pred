@@ -18,6 +18,7 @@ from influxdb import DataFrameClient
 
 
 
+
 class StockDataToFromfluxDB:
     def __init__(self, s_host = "127.0.0.1", i_port = 8086, s_username = '', s_password = '', s_trans_db = 'stocktrans', s_stock_daily_db = 'stockdaily'):
         self.host = s_host
